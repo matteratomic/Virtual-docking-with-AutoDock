@@ -1,0 +1,9 @@
+receptor = 6lud.pdbqt
+
+center_x = -27.694
+center_y = 2.528
+center_z = -19.056
+
+size_x = 40
+size_y = 50
+size_z = 50
