@@ -20,7 +20,7 @@ for f in "${ligands[@]:$progress}"; do
 b=$(basename $f .pdbqt)
 echo "Processing ligand $f"
 mkdir -p $results_folder
-vina.exe --num_modes 3 --config "conf.txt" --ligand "./ligands/$f" --out "./$results_folder/$f" --log "./$results_folder/$b.txt";
+vina --num_modes 3 --config "conf.txt" --ligand "./ligands/$f" --out "./$results_folder/$f" --log "./$results_folder/$b.txt";
 
 #increment progress counter
 ((progress++))

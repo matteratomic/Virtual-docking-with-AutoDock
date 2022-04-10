@@ -1,0 +1,198 @@
+MODEL 1
+REMARK VINA RESULT:      -6.5      0.000      0.000
+REMARK  Name = ZINC000002118541 MCULE-8742096214 MolPort-002-525-345
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CG_2  and  CB_3
+REMARK    2  A    between atoms: CG_2  and  SD_24
+REMARK    3  A    between atoms: CB_3  and  CA_4
+REMARK    4  A    between atoms: CA_4  and  C_23
+REMARK    5  A    between atoms: CA_4  and  N_25
+REMARK    6  A    between atoms: C_5  and  C_6
+REMARK    7  A    between atoms: C_6  and  C_7
+REMARK    8  A    between atoms: C_15  and  C_16
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNK A   0     -47.020  -5.571 -28.758  0.00  0.00    +0.000 A 
+ATOM      2  C   UNK A   0     -46.801  -5.979 -27.430  0.00  0.00    +0.000 A 
+ATOM      3  C   UNK A   0     -46.413  -7.395 -27.125  0.00  0.00    +0.000 C 
+ATOM      4  C   UNK A   0     -46.947  -5.041 -26.395  0.00  0.00    +0.000 A 
+ATOM      5  C   UNK A   0     -46.742  -5.391 -25.044  0.00  0.00    +0.000 A 
+ATOM      6  C   UNK A   0     -46.909  -4.397 -24.082  0.00  0.00    +0.000 A 
+ATOM      7  C   UNK A   0     -47.259  -3.119 -24.414  0.00  0.00    +0.000 A 
+ATOM      8  C   UNK A   0     -47.074  -3.125 -22.285  0.00  0.00    +0.000 A 
+ATOM      9  C   UNK A   0     -46.784  -4.425 -22.709  0.00  0.00    +0.000 A 
+ATOM     10  C   UNK A   0     -47.470  -2.731 -25.734  0.00  0.00    +0.000 A 
+ATOM     11  C   UNK A   0     -47.313  -3.705 -26.736  0.00  0.00    +0.000 A 
+ATOM     12  C   UNK A   0     -47.379  -4.234 -29.007  0.00  0.00    +0.000 A 
+ATOM     13  O   UNK A   0     -47.353  -2.375 -23.340  0.00  0.00    +0.000 OA
+ATOM     14  O   UNK A   0     -47.507  -3.370 -28.006  0.00  0.00    +0.000 OA
+ATOM     15  O   UNK A   0     -47.582  -3.840 -30.187  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   9  16
+ATOM     16  C   UNK A   0     -46.414  -5.609 -21.846  0.00  0.00    +0.000 C 
+ATOM     17  C   UNK A   0     -45.160  -6.269 -22.388  0.00  0.00    +0.000 C 
+ATOM     18  C   UNK A   0     -47.525  -6.645 -21.816  0.00  0.00    +0.000 C 
+ATOM     19  C   UNK A   0     -46.154  -5.149 -20.423  0.00  0.00    +0.000 C 
+ENDBRANCH   9  16
+BRANCH   1  20
+ATOM     20  C   UNK A   0     -46.907  -6.547 -29.894  0.00  0.00    +0.000 C 
+BRANCH  20  21
+ATOM     21  C   UNK A   0     -45.853  -6.110 -30.852  0.00  0.00    +0.000 C 
+ATOM     22  N   MET A   1     -44.607  -5.617 -30.358  0.00  0.00    +0.000 NA
+ATOM     23  O   UNK A   0     -46.060  -6.202 -32.092  0.00  0.00    +0.000 OA
+BRANCH  22  24
+ATOM     24  CA  MET A   1     -43.528  -5.215 -31.247  0.00  0.00    +0.000 C 
+BRANCH  24  25
+ATOM     25  C   MET A   1     -42.212  -5.480 -30.593  0.00  0.00    +0.000 C 
+ATOM     26  O   MET A   1     -41.046  -5.386 -31.338  0.00  0.00    +0.000 OA
+ATOM     27  OXT MET A   1     -42.154  -5.795 -29.375  0.00  0.00    +0.000 OA
+ENDBRANCH  24  25
+BRANCH  24  28
+ATOM     28  CB  MET A   1     -43.655  -3.741 -31.605  0.00  0.00    +0.000 C 
+BRANCH  28  29
+ATOM     29  CG  MET A   1     -43.576  -3.534 -33.108  0.00  0.00    +0.000 C 
+BRANCH  29  31
+ATOM     30  CE  MET A   1     -46.074  -2.803 -33.339  0.00  0.00    +0.000 C 
+ATOM     31  SD  MET A   1     -44.458  -2.019 -33.587  0.00  0.00    +0.000 S 
+ENDBRANCH  29  31
+ENDBRANCH  28  29
+ENDBRANCH  24  28
+ENDBRANCH  22  24
+ENDBRANCH  20  21
+ENDBRANCH   1  20
+TORSDOF 8
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -6.3      1.708      2.227
+REMARK  Name = ZINC000002118541 MCULE-8742096214 MolPort-002-525-345
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CG_2  and  CB_3
+REMARK    2  A    between atoms: CG_2  and  SD_24
+REMARK    3  A    between atoms: CB_3  and  CA_4
+REMARK    4  A    between atoms: CA_4  and  C_23
+REMARK    5  A    between atoms: CA_4  and  N_25
+REMARK    6  A    between atoms: C_5  and  C_6
+REMARK    7  A    between atoms: C_6  and  C_7
+REMARK    8  A    between atoms: C_15  and  C_16
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNK A   0     -46.893  -5.356 -27.787  0.00  0.00    +0.000 A 
+ATOM      2  C   UNK A   0     -46.757  -5.535 -26.399  0.00  0.00    +0.000 A 
+ATOM      3  C   UNK A   0     -46.369  -6.871 -25.839  0.00  0.00    +0.000 C 
+ATOM      4  C   UNK A   0     -46.985  -4.443 -25.545  0.00  0.00    +0.000 A 
+ATOM      5  C   UNK A   0     -46.866  -4.561 -24.145  0.00  0.00    +0.000 A 
+ATOM      6  C   UNK A   0     -47.111  -3.427 -23.374  0.00  0.00    +0.000 A 
+ATOM      7  C   UNK A   0     -47.456  -2.230 -23.934  0.00  0.00    +0.000 A 
+ATOM      8  C   UNK A   0     -47.414  -1.881 -21.826  0.00  0.00    +0.000 A 
+ATOM      9  C   UNK A   0     -47.077  -3.226 -22.009  0.00  0.00    +0.000 A 
+ATOM     10  C   UNK A   0     -47.584  -2.070 -25.311  0.00  0.00    +0.000 A 
+ATOM     11  C   UNK A   0     -47.346  -3.191 -26.126  0.00  0.00    +0.000 A 
+ATOM     12  C   UNK A   0     -47.253  -4.088 -28.277  0.00  0.00    +0.000 A 
+ATOM     13  O   UNK A   0     -47.632  -1.322 -23.006  0.00  0.00    +0.000 OA
+ATOM     14  O   UNK A   0     -47.460  -3.074 -27.443  0.00  0.00    +0.000 OA
+ATOM     15  O   UNK A   0     -47.383  -3.898 -29.516  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   9  16
+ATOM     16  C   UNK A   0     -46.749  -4.241 -20.940  0.00  0.00    +0.000 C 
+ATOM     17  C   UNK A   0     -46.800  -3.584 -19.573  0.00  0.00    +0.000 C 
+ATOM     18  C   UNK A   0     -45.362  -4.828 -21.137  0.00  0.00    +0.000 C 
+ATOM     19  C   UNK A   0     -47.756  -5.376 -20.980  0.00  0.00    +0.000 C 
+ENDBRANCH   9  16
+BRANCH   1  20
+ATOM     20  C   UNK A   0     -46.690  -6.503 -28.736  0.00  0.00    +0.000 C 
+BRANCH  20  21
+ATOM     21  C   UNK A   0     -45.342  -6.423 -29.367  0.00  0.00    +0.000 C 
+ATOM     22  N   MET A   1     -45.231  -6.200 -30.774  0.00  0.00    +0.000 NA
+ATOM     23  O   UNK A   0     -44.310  -6.530 -28.652  0.00  0.00    +0.000 OA
+BRANCH  22  24
+ATOM     24  CA  MET A   1     -43.943  -6.073 -31.436  0.00  0.00    +0.000 C 
+BRANCH  24  25
+ATOM     25  C   MET A   1     -43.729  -4.656 -31.855  0.00  0.00    +0.000 C 
+ATOM     26  O   MET A   1     -42.726  -4.354 -32.766  0.00  0.00    +0.000 OA
+ATOM     27  OXT MET A   1     -44.445  -3.734 -31.384  0.00  0.00    +0.000 OA
+ENDBRANCH  24  25
+BRANCH  24  28
+ATOM     28  CB  MET A   1     -43.871  -6.999 -32.643  0.00  0.00    +0.000 C 
+BRANCH  28  29
+ATOM     29  CG  MET A   1     -45.261  -7.340 -33.155  0.00  0.00    +0.000 C 
+BRANCH  29  31
+ATOM     30  CE  MET A   1     -46.645  -5.323 -34.073  0.00  0.00    +0.000 C 
+ATOM     31  SD  MET A   1     -45.542  -6.578 -34.780  0.00  0.00    +0.000 S 
+ENDBRANCH  29  31
+ENDBRANCH  28  29
+ENDBRANCH  24  28
+ENDBRANCH  22  24
+ENDBRANCH  20  21
+ENDBRANCH   1  20
+TORSDOF 8
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -6.0      2.039      2.971
+REMARK  Name = ZINC000002118541 MCULE-8742096214 MolPort-002-525-345
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CG_2  and  CB_3
+REMARK    2  A    between atoms: CG_2  and  SD_24
+REMARK    3  A    between atoms: CB_3  and  CA_4
+REMARK    4  A    between atoms: CA_4  and  C_23
+REMARK    5  A    between atoms: CA_4  and  N_25
+REMARK    6  A    between atoms: C_5  and  C_6
+REMARK    7  A    between atoms: C_6  and  C_7
+REMARK    8  A    between atoms: C_15  and  C_16
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNK A   0     -46.069  -5.418 -29.267  0.00  0.00    +0.000 A 
+ATOM      2  C   UNK A   0     -45.612  -6.077 -28.111  0.00  0.00    +0.000 A 
+ATOM      3  C   UNK A   0     -44.547  -7.128 -28.207  0.00  0.00    +0.000 C 
+ATOM      4  C   UNK A   0     -46.167  -5.734 -26.867  0.00  0.00    +0.000 A 
+ATOM      5  C   UNK A   0     -45.751  -6.361 -25.674  0.00  0.00    +0.000 A 
+ATOM      6  C   UNK A   0     -46.355  -5.958 -24.484  0.00  0.00    +0.000 A 
+ATOM      7  C   UNK A   0     -47.318  -4.991 -24.451  0.00  0.00    +0.000 A 
+ATOM      8  C   UNK A   0     -47.059  -5.607 -22.422  0.00  0.00    +0.000 A 
+ATOM      9  C   UNK A   0     -46.170  -6.373 -23.181  0.00  0.00    +0.000 A 
+ATOM     10  C   UNK A   0     -47.756  -4.347 -25.605  0.00  0.00    +0.000 A 
+ATOM     11  C   UNK A   0     -47.173  -4.724 -26.828  0.00  0.00    +0.000 A 
+ATOM     12  C   UNK A   0     -47.066  -4.434 -29.140  0.00  0.00    +0.000 A 
+ATOM     13  O   UNK A   0     -47.727  -4.792 -23.223  0.00  0.00    +0.000 OA
+ATOM     14  O   UNK A   0     -47.568  -4.131 -27.947  0.00  0.00    +0.000 OA
+ATOM     15  O   UNK A   0     -47.494  -3.828 -30.158  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   9  16
+ATOM     16  C   UNK A   0     -45.213  -7.430 -22.682  0.00  0.00    +0.000 C 
+ATOM     17  C   UNK A   0     -44.869  -7.166 -21.228  0.00  0.00    +0.000 C 
+ATOM     18  C   UNK A   0     -43.922  -7.437 -23.484  0.00  0.00    +0.000 C 
+ATOM     19  C   UNK A   0     -45.852  -8.801 -22.797  0.00  0.00    +0.000 C 
+ENDBRANCH   9  16
+BRANCH   1  20
+ATOM     20  C   UNK A   0     -45.528  -5.774 -30.623  0.00  0.00    +0.000 C 
+BRANCH  20  21
+ATOM     21  C   UNK A   0     -44.491  -4.791 -31.044  0.00  0.00    +0.000 C 
+ATOM     22  N   MET A   1     -44.863  -3.671 -31.849  0.00  0.00    +0.000 NA
+ATOM     23  O   UNK A   0     -43.298  -4.942 -30.668  0.00  0.00    +0.000 OA
+BRANCH  22  24
+ATOM     24  CA  MET A   1     -43.900  -2.659 -32.256  0.00  0.00    +0.000 C 
+BRANCH  24  25
+ATOM     25  C   MET A   1     -44.418  -1.303 -31.907  0.00  0.00    +0.000 C 
+ATOM     26  O   MET A   1     -45.468  -1.180 -31.009  0.00  0.00    +0.000 OA
+ATOM     27  OXT MET A   1     -43.914  -0.272 -32.427  0.00  0.00    +0.000 OA
+ENDBRANCH  24  25
+BRANCH  24  28
+ATOM     28  CB  MET A   1     -43.628  -2.754 -33.751  0.00  0.00    +0.000 C 
+BRANCH  28  29
+ATOM     29  CG  MET A   1     -42.272  -3.383 -34.022  0.00  0.00    +0.000 C 
+BRANCH  29  31
+ATOM     30  CE  MET A   1     -41.084  -5.643 -33.468  0.00  0.00    +0.000 C 
+ATOM     31  SD  MET A   1     -42.466  -5.120 -34.519  0.00  0.00    +0.000 S 
+ENDBRANCH  29  31
+ENDBRANCH  28  29
+ENDBRANCH  24  28
+ENDBRANCH  22  24
+ENDBRANCH  20  21
+ENDBRANCH   1  20
+TORSDOF 8
+ENDMDL
