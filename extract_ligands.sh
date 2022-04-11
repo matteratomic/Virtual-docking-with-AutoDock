@@ -3,7 +3,7 @@
 #for use in docking with AutoDock Vina
 
 mkdir -p ligands
-obabel.exe -isdf pharmacophore_query_results.sdf -o pdbqt -O ./ligands/lig.pdbqt -m
+obabel -isdf pharmacophore_query_results.sdf -o pdbqt -O ./ligands/lig.pdbqt -m
 
 #Rename files to match Drug ID from ZINC15 database
 cd ligands
