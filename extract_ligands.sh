@@ -1,4 +1,5 @@
 #! /bin/bash
+#Written by Ian Ndeu Macharia
 #Command to extract multiple ligands and convert them into pdbqt file format
 #for use in docking with AutoDock Vina
 
