@@ -30,6 +30,3 @@ Epidermal Growth Factor Receptors (EGFR) are one of the most significant targets
 EGFR can be inhibited by small molecule drugs called Tyrosine Kinase Inhibitors (TKI). They tend to possess the -nib suffix in their name. Common TKIs in use include Imatinib, Gefitinib, Osimertinib e.t.c. A major problem with existing tyrosine kinase inhibitors is the emergence of resistance caused by mutations in DNA that code for EGFR. The major mutations that confer resistance are T790M (Tyrosine substitued for Methionine at codon 790), L858R (Arginine substitued for Leucine at codon 858) and Exon 19 deletion. 
 
 By using Computer Aided Drug Design we can try and identify new molecules that bind to the tyrosine kinase domain of the EGFR. To find out more about how these receptors work, [checkout this wiki page on EGFR](https://en.wikipedia.org/wiki/Epidermal_growth_factor_receptor). As for tyrosine kinase inhibitors, read more [here](https://en.wikipedia.org/wiki/Tyrosine_kinase_inhibitor).
-
-### How this project works 
-
